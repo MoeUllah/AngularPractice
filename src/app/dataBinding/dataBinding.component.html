@@ -1,0 +1,8 @@
+<p>This name coming from the ts file is being
+    displayed in the html code  using
+    data binding : {{name}} is {{getStatus()}}
+</p>
+
+<button [disabled]="!allowClickable" (click)="onClicked()">Button clickable with property binding</button>
+<p [innerText]="allowClickable"></p>
+<p>{{clickedState}}</p>
